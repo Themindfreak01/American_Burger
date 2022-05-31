@@ -1,0 +1,283 @@
+
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("./font/BebasNeueR.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "AlfaSlabOne-Regular";
+    src: url("./font/AlfaSlabOneR.ttf") format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/IMG/background.png");
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav img{
+    height: 50px;
+    width: 200px;
+}
+
+.social img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.social img:hover{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.social{
+    display: flex;
+}
+
+.main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+
+}
+
+.txt{
+    padding: 70px;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+
+}
+
+.txt p{
+    font-size: 29px;
+    border: 1px solid black;
+    border-style: dashed;
+    padding: 5px;
+    width: 510px;
+    text-transform: uppercase;
+    font-family: "BebasNeue-Regular";
+
+}
+
+.txt h1{
+    font-size: 120px;
+    font-family: "AlfaSlabOne-Regular";
+    text-shadow: 3px 3px #ffffff;
+    color: #3d2514;
+    text-shadow: white;
+    letter-spacing: 3px;
+}
+
+.txt h2{
+    font-size: 75px;
+    font-family: "AlfaSlabOne-Regular";
+    text-shadow: 3px 3px #ffffff;
+    color: #3d2514;
+    text-shadow: white;
+    letter-spacing: 3px;
+}
+
+.right{
+    position: relative;
+}
+
+.right .burger{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 350px;
+    width: 400px;
+    z-index: 1;
+}
+
+.right .shadow{
+    position: absolute;
+    top: 77%;
+    left: 10%;
+    height: 40px;
+    width: 500px;
+
+}
+
+.right .drink{
+    position: absolute;
+    top: 6%;
+    left: 65%;
+    height: 430px;
+    width: 120px;
+}
+
+.right .shadow2{
+    position: absolute;
+    top: 76%;
+    left: 62%;
+    height: 40px;
+    width: 180px;
+}
+
+.right .fries{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 250px;
+    width: 150px;
+    transform: rotate(-30deg);
+
+}
+
+.spicy{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.spicy img{
+    height: 48px;
+    width: 43px;
+    position: absolute;
+    bottom: -4px;
+    left: 5px;
+}
+
+.spicy h3{
+    background-color: #3d2514;
+    font-family: "BebasNeue-Regular";
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding: 2px;
+    padding-left: 30px;
+    margin-left: 23px;
+    color: white;
+
+}
+
+.band{
+    background-image: url("./img/Rectangle.png");
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 500px;
+    padding: 10px;
+    padding-top: 15px;
+    display: flex;
+}
+
+.info{
+    margin-left: 30px;
+
+}
+
+.band{
+    margin-top: 20px;
+}
+
+.band img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.info h3{
+    font-size: 12px;
+    margin: 2px;
+    color: white;
+    font-family: "BebasNeue-Regular";
+    font-weight: lighter;
+    letter-spacing: 3px;
+
+}
+
+.info h1{
+    color: white;
+    font-size: 24px;
+    font-family: "BebasNeue-Regular";
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.rond{
+    background-color: #bf2222;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    top: 56%;
+    left: 6.5%;
+}
+
+.tarif{
+    width: 130px;
+    height: 130px;
+    border: 2px solid white;
+    border-style: dashed;
+    align-items: center;
+    padding: 20px;
+    padding-left: 27px;
+    border-radius: 50%;
+}
+
+.tarif .un{
+    font-size: 55px;
+    font-weight:bold;
+    color: white;
+    font-family: "BebasNeue-Regular";
+}
+
+.tarif .deux{
+    font-size: 20px;
+    color: white;
+    font-family: "BebasNeue-Regular";
+}
+
+.tarif h3{
+    font-size: 30px;
+    font-family: "BebasNeue-Regular";
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin-left: 6px;
+    margin-top: -12px;
+
+}
+
+.bottom{
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+    margin: -36px;
+    margin-top: 200px;
+    margin-right: 10px;
+}
+
+.bottom h3{
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family: "BebasNeue-Regular";
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-weight: lighter;
+}
+
