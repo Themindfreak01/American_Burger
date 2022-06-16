@@ -113,7 +113,7 @@ body{
     left: 15%;
     height: 350px;
     width: 400px;
-    z-index: 1;
+     z-index: 1;
 }
 
 .right .shadow{
@@ -289,4 +289,5 @@ body{
     font-size: 23px;
     font-weight: lighter;
 }
+
 
